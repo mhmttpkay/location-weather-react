@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    text-align: center;
+    background-color: #333;
+    width: 250px;
+    height: 250px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 3px 3px 4px #000;
+    .title{
+        font-size: 25px;
+        padding: 5px;
+    }
+    .city{
+        font-size: 20px;
+    }
+    .temp{
+        font-size: 20px;
+    }
+    .desc{
+        font-size: 18px;
+    }
+    .date{
+        font-size: 15px;
+    }
+}
